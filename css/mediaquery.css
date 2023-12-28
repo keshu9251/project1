@@ -1,0 +1,151 @@
+@media only screen and (min-width: 250px) and (max-width: 560px)
+ {
+    .main{
+        width: 100%;
+    }
+    .nav ul li{
+        display: none;
+    }
+    .section1{
+        width: 100%;
+        position: sticky;
+       
+    }
+    .section2{
+        width: 100%;
+        background-attachment:initial;
+        height: 80vh;
+        margin-bottom: 50px;
+        
+    }
+    .section2 h1{
+        font-size: 45px;
+        padding-bottom: 30px;
+    }
+    .header{
+        width: 100%;
+        /* justify-content: normal; */
+    }
+    .content1{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 30px;
+    }
+    .cols{
+        width: 100%;
+        padding-bottom: 15px;
+        height: 300px;
+    }
+    .content2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .subcols{
+        padding-top: 65px;
+    }
+    .section4c{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+        padding: 0 15px;
+
+    }
+    .section4images {
+        flex-wrap: wrap;
+    }
+    .section4photo {
+        margin-bottom: 10px;
+    }
+    .footer{
+        padding: 15px;
+    }
+    .footercontent{
+        width: 96%;
+    }
+    .contact h1 {
+        padding-top: 60px;
+    }
+    .fc{
+        width: 100%;
+    }
+    .no{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .menu{
+        display: block;
+    }
+    .overlay{
+        width: 230px;
+    }
+    .border4{
+        width: 230px;
+    }
+    .section4photo img{
+        margin: auto;
+    }
+}
+@media only screen and (min-width: 561px) and (max-width: 999px){
+    .content1{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 30px;
+    }
+    .cols{
+        width: 100%;
+        padding-bottom: 15px;
+        /* height: 300px; */
+    }
+    .content2{
+        width: 100%;
+        flex-direction: column;
+    }
+    .train {
+        padding: 15px 0 15px 250px;
+    }
+    .cycle {
+        padding: 15px 0 15px 280px;
+    }
+    .build {
+        padding: 15px 0 15px 280px;
+    }
+    .section4c{
+        width: 100%;
+    }
+    .p4{
+        width: 100%;
+        padding: 0 15px;
+
+    }
+    .section4images {
+        flex-wrap: wrap;
+    }
+    .section4photo {
+        margin-bottom: 10px;
+        width: 230px;
+    }
+    .overlay{
+        width: 230px;
+    }
+    .border4{
+        width: 230px;
+    }
+    .footer{
+        padding: 15px;
+    }
+    .footercontent{
+        width: 96%;
+    }
+    .contact h1 {
+        padding-top: 60px;
+    }
+    .fc{
+        width: 100%;
+    }
+    .no{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+

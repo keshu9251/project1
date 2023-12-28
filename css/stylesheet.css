@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.section1{
+    width: 100%;
+    /* margin-bottom: 4px; */
+    box-shadow: 0 0 15px 2px gray;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+}
+.header{
+    width: 95%;
+    /* height: 80px; */
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    
+}
+.nav ul li{
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: inherit;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.menu {
+    display: none;
+}
+.section2{
+    width: 100%;
+    height: 100vh;
+    background: url(../images/the-town-bg-01.jpg) center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.section2 h1{
+    font-size: 75px;
+    text-shadow: 1px 1px 3px black;
+    color: white;
+    padding-bottom: 30px;
+}
+.circle{
+    width: 65px;
+    height: 65px;
+    background-color:transparent;
+    border-radius: 50%;
+   
+
+}
+.arrow{
+    font-size: 65px;
+    color: white;
+}
+.arrow:hover{
+    background-color: white;
+}
+.circle:hover i{
+    border-radius: 50%;
+    color: blue;
+}
+.section3{
+    width: 100%;
+}
+.content1{
+    width: 1300px;
+    /* height: 500px; */
+    /* border: 0.5px solid black; */
+    margin: auto;
+    display: flex;
+    /* padding-bottom: 5px; */
+}
+.cols{
+    width: 50%;
+    /* border: 0.5px solid black; */
+    height: 500px;
+
+}
+.cols img{
+    width: 95%;
+}
+.cols h1{
+    color: #3496d8;
+    padding: 20px 5px;
+    font-size: 55px;
+}
+.cols p{
+    line-height: 30px;
+    font-size: 25px;
+    color: rgba(0,0,0, 0.5);
+    padding: 30px 0;
+}
+.cols button{
+    color: white;
+    background-color:#3496d8 ;
+    font-size: 15px;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.content2{
+    width: 1300px;
+    /* height: 500px; */
+    margin: auto;
+    display: flex;
+    padding-bottom: 45px;
+}
+.subcols{
+    /* height: 350px; */
+    flex-grow: 1;
+    /* width: 100px; */
+    /* border: 0.5px solid black; */
+    /* display: flex; */
+
+}
+.train{
+    font-size: 55px;
+    color: #3496d8;
+    /* align-content: center; */
+    padding:15px 0 15px 160px ;
+}
+.cycle{
+    font-size: 55px;
+    color: #3496d8;
+    /* align-content: center; */
+    padding:15px 0 15px 180px ;
+   
+}
+.build{
+    font-size: 55px;
+    color: #3496d8;
+    /* align-content: center; */
+    padding:15px 0 15px 180px ;
+   
+}
+.subcols h1{
+    padding: 15px 0;
+    color: #3496d8;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 25px;
+}
+.subcols p{
+    color: rgba(0,0,0, 0.5);
+    line-height: 22px;
+    text-align: justify;
+    font-size: 17px;
+    padding: 15px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section4{
+    width: 100%;
+}
+.section4c{
+    width: 1300px;
+    /* height: 500px; */
+    /* border: 0.1px solid black; */
+    margin: auto;
+    /* display: flex; */
+}
+.section4c h1{
+    color: #3496d8;
+    text-align: center;
+    font-weight: normal;
+    padding:40px 0 ;
+    font-size: 60px;
+}
+.p4{
+    width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.p4 p{
+    font-size: 20px;
+    color: rgba(0,0,0, 0.5);
+    padding-bottom: 30px;
+
+}
+.section4images{
+    display: flex;
+    width: 100%;
+    padding-bottom: 130px;
+   al: center;
+}
+.section4photo{
+    /* border: 0.1px solid black; */
+    /* height: 250px; */
+    flex-grow: 1;
+    margin: 0 15px;
+    position: relative;
+    overflow: hidden;
+
+}
+.section4photo img{
+    height: 100%;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+   
+}
+.border4{
+    width: 100%;
+    height: 7px;
+    background-color: #3496d8;
+    position: absolute;
+    bottom: -7px;
+}
+.section4photo .overlay h3{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 80px;
+    font-weight: normal;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+.section4photo:hover .border4{
+    bottom: 0;
+    transition: 0.5s;
+}
+.section4photo:hover h3{
+    top: 70px;
+   transition: 0.5s;
+
+}
+
+.section4photo:hover .overlay{
+   opacity: 40%;
+   transition: 0.5s;
+}
+
+.thick{
+    color:white;
+    text-align: center;
+    font-size: 40px;
+    font-weight:bolder;
+  
+   
+}
+.overlay h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+   
+}
+.footer{
+    width: 100%;
+    background-image: url(../images/the-town-bg-02.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.footercontent{
+    width: 1100px;
+    /* height: 600px; */
+    margin:  auto;
+    /* border: 0.1px solid black; */
+
+    
+}
+.contact{
+    width: 100%;
+    /* height: 200px; */
+    border-bottom: 5px solid white;
+    /* text-align: ; */
+}
+.contact h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 100px;
+    font-size: 55px;
+}
+.border{
+    width: 280px;
+    height: 5px;
+    background-color: white;
+}
+.info{
+    width: 100%;
+    /* height: 200px; */
+    margin-top: 50px;
+}
+.info p{
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    padding-bottom: 40px;
+}
+.fc{
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.no{
+    width: 450px;
+    /* border: 5px solid white; */
+    height: 60px;
+    display: flex;
+    text-align: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.icon{
+    font-size: 40px;
+    color: white;
+    transition: 0.5s;
+   
+}
+.no h6{
+    color: white;
+    padding: 10px 0 0px 15px;
+    font-size: 15px;
+    transition: 0.5s;
+
+}
+
+.no:hover .icon{
+    color: #3496d8;
+}
+.no:hover.no h6{
+    color: #3496d8;
+}
+.no input{
+    width: 250px;
+    height: 50px;
+   background-color: transparent;
+    border-radius: 7px;
+    margin: 5px 3px;
+    border: 1px solid white;
+    padding: 0 10px;
+
+}
+.no button{
+    width: 130px;
+    height: 50px;
+    margin: 4px 3px;
+    border-radius: 7px;
+    font-size: 16px;
+    background-color: #ced4da;
+
+}
+.placeholder{
+    color: white;
+}
